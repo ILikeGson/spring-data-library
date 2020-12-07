@@ -1,0 +1,102 @@
+1607155889782:commands
+1607155911997:findAllooks
+1607155922525:findAllBooks
+1607164919483:commans
+1607164922877:commands
+1607164928603:findAllBooks
+1607164936556:findAllBooks()
+1607164997002:findBookById(2)
+1607165007770:findBookById
+1607165018233:findBookById --2
+1607165031752:findBookById --id 2
+1607165073397:findAllBooks
+1607191830466:commands
+1607192666578:saveBook
+1607192707794:saveBook --New Mexico --Vasya --Baboshin --ovella
+1607192715135:saveBook --New Mexico --Vasya --Baboshin --novella
+1607192753930:saveBook --New Mexico --Vasya --Baboshin
+1607192767269:stacjtrace
+1607192771479:stacktrace
+1607192778844:saveBook --New Mexico --Vasya --Baboshin --novella
+1607192915729:saveBook --title New Bitch --authorFirstName Vasya --authorLastName Baboshin --novella
+1607192938522:saveBook --title New Bitch --authorFirstName Vasya --authorLastName Baboshin --genre novella
+1607193122211:saveBook 'new mexico' 'last' 'danser' 'party-style'
+1607193131519:stacktrace
+1607193545246:saveBook 'X-Men's' 'Danila' 'Nushtat' 'action'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsaveBook 'X-Men's' 'Danila' 'Nushtat' 'action'
+1607193579019:saveBook 'X-Men's' 'Danila' 'Nushtat' 'action'\n\n\n\n\n\n\n\n\n\n\nsaveBook 'X-Men's'/ 'Danila'/ 'Nushtat' /'action'
+1607201240897:saveBook "X-Men's" "Danila" "Nushtat" "action"
+1607201380363:stacktrace
+1607201457373:saveBook "X-Men's" "Danila" "Nushtat" "action"
+1607201680595:findAllBooks
+1607201833646:saveBook select * From book b
+1607201833658:join author a on a.id = b.author_id
+1607201833664:join book_comment h on h.book_id = b.id
+1607201854012:join genre g on g.id = b.genre_id;saveBook "X-Men's 2" "Danila" "Nushtat" "comedy"
+1607201905064:stacktrace
+1607202846672:saveBook "X-Men's 2" "Danila" "Nushtat" "comed"
+1607202908999:saveBook "X-Men's 2" "Danila" "Nushtat" "comedy"
+1607204385866:findAllBooks
+1607234065455:saveCommentToBook ""
+1607234083028:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" --id 21
+1607234118781:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" -id 21
+1607234127260:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" --21
+1607234132854:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" 21
+1607234141468:stacktrace
+1607234198509:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" 21
+1607234280726:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" --id 21L
+1607234291076:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" 21L
+1607234549357:saveCommentToBook "Learn why is it important to manage comments on social and how you can manage comments on Facebook" 21
+1607234554972:help
+1607234590657:save-comment-to-book "Learn why is it important to manage comments on social and how you can manage comments on Facebook" -id 21
+1607234599567:save-comment-to-book "Learn why is it important to manage comments on social and how you can manage comments on Facebook" --id 21
+1607234904030:findAllBooks
+1607234934567:save-comment-to-book "Negative comment here" --id 21
+1607234963182:findAllBooks
+1607235024836:find-books-by-title "Everybody wants to rule the world"
+1607235062303:find-books-by-title "X-Men's"
+1607235071201:find-books-by-title "X-Men's 2"
+1607235106491:find-books-by-author "Danila" "Nushtat"
+1607235234285:stacktrace
+1607235809471:find-books-by-author "Danila" "Nushtat"
+1607235900483:help
+1607235918313:findBookById 20
+1607235922343:findBookById 21
+1607235950112:find-books-by-genre "action"
+1607236108643:find-books-by-genre "comedy"
+1607243797074:help
+1607243930471:findAllBooks
+1607247579066:help
+1607247882417:update-book-by-id "x-mens" "Danila" "Nushtat" "comedy" --id 21
+1607247914755:stacktrace
+1607286908233:help
+1607287028684:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "comedy" 21
+1607287047292:stacktrace
+1607287150712:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "comedy" 21
+1607287162411:findAllBooks
+1607288513718:update-book-by-id "Bitches everywhere2" "Danila" "Nushtat" "comedy" 24
+1607288525746:stacktrace
+1607289120938:update-book-by-id "Bitches everywhere2" "Danila" "Nushtat" "comedy" 24
+1607289181789:ueryExecutionRequestException: Not supported for DML operations
+1607289227835:update-book-by-id "Bitches everywhere2" "Danila" "Nushtat" "comedy" 21
+1607289234361:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "comedy" 24
+1607289249059:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "comedy" 21
+1607289252467:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "comedy" 24
+1607289483372:update-book-by-id "Bitches everywhere2" "Danila" "Nushtat" "comedy" 24
+1607289488894:findAllBooks
+1607289502391:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "action" 24
+1607289507746:findAllBooks
+1607289541896:update-book-by-id "Bitches everywhere" "Danila" "Nushtat" "fiction" 24
+1607289547608:findAllBooks
+1607289583962:update-book-by-id "Bitches everywhere" "Vasya" "Baboshin" "comedy" 21
+1607289632689:update-book-by-id "Bitches everywhere" "Zhenya" "Ivanov" "comedy" 24
+1607289638978:findAllBooks
+1607290306360:help
+1607290329012:delete-book-by-id 24
+1607290334934:findAllBooks
+1607290971523:countAllBooks
+1607290976580:help
+1607290986655:count-all-books
+1607291209529:help
+1607323849571:find-all-books
+1607323863397:find-all-genres
+1607323871553:find-all-authors
